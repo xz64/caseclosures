@@ -1,10 +1,10 @@
 import { render } from 'react-dom';
-import FileUploadDialog from './components/FileUploadDialog.jsx';
+import FileUploadContainer from './components/FileUploadContainer.jsx';
 
 document.addEventListener('DOMContentLoaded', function domready() {
   render(
     <div>
-      <FileUploadDialog/>
+      <FileUploadContainer/>
     </div>,
     document.getElementById('root')
   );
