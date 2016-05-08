@@ -13,6 +13,12 @@ let config = {
     path: outputDir,
     filename: 'app.js'
   },
+  resolve: {
+    alias: {
+      'react': 'react-lite',
+      'react-dom': 'react-lite'
+    }
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: title,
